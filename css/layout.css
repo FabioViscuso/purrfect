@@ -25,6 +25,7 @@ body {
     width: 12.5rem;
     padding: 10rem 0;
     
+    z-index: 999;
     text-align: center;
     background-color: rgba(253, 226, 231, .5);
 }
