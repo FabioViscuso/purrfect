@@ -1,0 +1,12 @@
+.footer__link,
+.footer__link:hover {
+    text-decoration: none;
+    transition: all .5s ease;
+}
+.footer__link:hover {
+    color: rgb(255, 197, 208);
+}
+
+.footer__text {
+    font-size: 1.8rem;
+}

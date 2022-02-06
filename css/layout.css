@@ -1,0 +1,39 @@
+body {
+    background-image: url(../img/catBackground-large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding-right: 10rem;
+
+    color: #f5f5f5;
+}
+
+.menu-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+
+    width: 10rem;
+    padding: 4rem 0;
+
+    background-color: rgba(253, 226, 231, .5);
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 100%;
+    padding: 3rem 0;
+
+    background-color: rgba(0, 0, 0, .3);
+}

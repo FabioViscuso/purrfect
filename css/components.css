@@ -1,0 +1,37 @@
+.darken-layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: -1;
+}
+
+.blur-layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    backdrop-filter: blur(10px);
+}
+
+.menu-bar__logo {
+    width: 8rem;
+    margin-bottom: auto;
+}
+
+.menu-bar__btn {
+    width: min-content;
+    padding: 1rem;
+}
+.menu-bar__btn:hover {
+    border: 2px solid;
+}
+
+.footer__icon {
+    width: 2.5rem;
+    margin-right: 1rem;
+}
