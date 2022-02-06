@@ -59,12 +59,27 @@
     backdrop-filter: blur(4px);
 }
 
+.login {
+    position: absolute;
+    top: 0;
+    left: 50rem;
+    width: 35rem;
+    background-color: rgba(0, 0, 0, .5);
+    transition: all .5s ease-out;
+    z-index: 1000;
+}
+.menu-bar__btn.relative:hover .card.login{
+    left: -35.5rem;
+    transition: all .5s ease-in;
+}
+
 .card--photogallery{
     align-self: flex-start;
     min-height: 60rem;
 }
 
 .card__input {
+    width: 100%;
     margin: 5px 0;
     padding: 1.8rem;
     border: 0;

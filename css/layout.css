@@ -22,10 +22,10 @@ body {
     top: 0;
     bottom: 0;
     right: 0;
-
     width: 12.5rem;
     padding: 10rem 0;
-
+    
+    text-align: center;
     background-color: rgba(253, 226, 231, .5);
 }
 
