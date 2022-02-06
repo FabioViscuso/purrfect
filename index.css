@@ -11,6 +11,9 @@
 /*  typography.css contains classes for variout text types */
 @import "css/typography.css";
 
+/* images.css contains image classes */
+@import "css/images.css";
+
 /*  helpers.css contains helper classes.
     Keep it always the last import. */
 @import "css/helpers.css";
