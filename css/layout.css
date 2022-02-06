@@ -3,25 +3,28 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 
-    padding-right: 10rem;
+    /* This equals the width of the topbar */
+    padding-right: 12.5rem;
 
+    font-family: 'Arima Madurai', cursive;
+    font-size: 1.5rem;
     color: #f5f5f5;
 }
 
 .menu-bar {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    gap: 3rem;
+    gap: 6rem;
 
     position: fixed;
     top: 0;
     bottom: 0;
     right: 0;
 
-    width: 10rem;
-    padding: 4rem 0;
+    width: 12.5rem;
+    padding: 10rem 0;
 
     background-color: rgba(253, 226, 231, .5);
 }

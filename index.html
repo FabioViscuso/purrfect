@@ -5,23 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Google Font import: Arima Madurai -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@200;400;700&display=swap"  rel="stylesheet">
+
     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
     <link rel="stylesheet" href="index.css">
     <script src="js/index.js"></script>
 
-    <title>Purrfect</title>
+    <title>Purrfect Match! Find a cat near you.</title>
 </head>
 
 <body class="flex-column justify-end">
     <div class="darken-layer"></div>
     <header class="menu-bar">
-        <img class="menu-bar__logo" src="img/paw.png" alt="main logo">
         <button class="menu-bar__btn">Log In</button>
         <button class="menu-bar__btn">Sign Up</button>
+        <a class="relative" href="https://www.google.it/search?q=cute+cats&tbm=isch&ved=2ahUKEwihifjqu-v1AhVr1uAKHWyZC2gQ2-cCegQIABAA&oq=cute+cats&gs_lcp=CgNpbWcQAzIHCCMQ7wMQJzIICAAQgAQQsQMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoICAAQsQMQgwE6BAgAEEM6CggjEO8DEOoCECc6BAgAEAM6CwgAEIAEELEDEIMBOgcIABCxAxBDOgoIABCxAxCDARBDOgQIABAeUI8GWI4eYIogaAJwAHgAgAFdiAHbBpIBAjEwmAEAoAEBqgELZ3dzLXdpei1pbWewAQrAAQE&sclient=img&ei=PvP_YaHyJOusgwfssq7ABg&bih=1009&biw=1920&hl=it" target="_blank" style="margin-top: auto;">
+            <img class="menu-bar__logo" src="img/paw.png" alt="main logo">
+            <p class="menu-bar__tooltip">Even more cats!</p>
+        </a>
     </header>
-    <main class="flex-row">
 
+    <main class="flex-row justify-evenly align-center h-100">
+        <div class="card">
+            <h1 class="card__header">Welcome!</h1>
+            <h2 class="card__title">Enter world of cuteness, fur, and love!</h2>
+            <p class="card__text">
+                Because anyone deserves a cat in his life! <br>
+                Join us in this awesome journey and let's find a home for every lonely kitty
+                out there.
+            </p>
+            <h2 class="card__cta">It's free!</h2>
+        </div>
+        <div class="card">
+            <h2>Some of our beautiful cats, just waiting for you</h2>
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+        </div>
     </main>
+
     <footer class="footer relative">
         <p class="footer__text">&#169; 2022 Purrfect Match</p>
         <p class="footer__text">Made with <span class="txt-red">&#10084;</span> by Fabio Viscuso</p>

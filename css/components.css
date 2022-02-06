@@ -8,31 +8,49 @@
     z-index: -1;
 }
 
-.blur-layer {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    backdrop-filter: blur(10px);
+.menu-bar__logo {
+    position: relative;
+    width: 8rem;
 }
 
-.menu-bar__logo {
-    width: 8rem;
-    margin-bottom: auto;
+.menu-bar__tooltip {
+    position: absolute;
+    top: 0;
+    left: -1.4rem;
+    width: max-content;
+    opacity: 0;
+    transition: all .2s ease;
+}
+.menu-bar__logo:hover + .menu-bar__tooltip {
+    top: -4rem;
+    opacity: 1;
+    transition: all .2s ease;
 }
 
 .menu-bar__btn {
     width: 90%;
     padding: 2rem 0;
     font-size: 2rem;
+    font-family: 'Arima Madurai', cursive;
+    color: #f5f5f5;
     border: none;
     border-radius: 6px;
     background-color: transparent;
+    transition: all .2s ease;
 }
 .menu-bar__btn:hover {
-    box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, .3);
+    color:crimson;
+    box-shadow: inset 0px 0px 10px 2px rgba(0, 0, 0, .1),0px 0px 2px 2px rgba(0, 0, 0, .1);
+    transition: all .2s ease;
+}
+
+.card {
+    position: relative;
+    width: 40rem;
+    padding: 3rem 4rem;
+    background-color: rgba(253, 226, 231, .25);
+    border-radius: 3px;
+    backdrop-filter: blur(4px);
 }
 
 .footer__icon {
