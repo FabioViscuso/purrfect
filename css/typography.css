@@ -1,3 +1,12 @@
+a, a:hover {
+    text-decoration: none;
+}
+.main-logo__title {
+    font-size: 7rem;
+    color: rgb(255, 197, 208);
+    margin-top: 12px;
+}
+
 .card__header {
     font-size: 6rem;
     margin-bottom: 2.5rem;
@@ -17,8 +26,13 @@
 .card__cta {
     font-size: 4rem;
     color: rgb(255, 197, 208);
-    text-align: center;
     margin: 3rem 0 1rem;
+    cursor: pointer;
+    transition: color .2s ease;
+}
+.card__cta:hover {
+    color: crimson;
+    transition: color .2s ease;
 }
 
 .footer__link,
