@@ -80,7 +80,6 @@ input[id="toggle"] {
 }
 
 .card--photogallery{
-    align-self: flex-start;
     min-height: 60rem;
 }
 
