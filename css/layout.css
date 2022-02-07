@@ -2,6 +2,7 @@ body {
     background-image: url(../img/catBackground-large.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 
     /* This equals the width of the topbar */
     padding-right: 12.5rem;
