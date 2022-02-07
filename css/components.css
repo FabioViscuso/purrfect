@@ -67,7 +67,7 @@ input[id="toggle"] {
 .login {
     position: absolute;
     top: 3rem;
-    left: 50rem;
+    left: 20rem;
     width: 35rem;
     background-color: rgba(0, 0, 0, .5);
     transition: all .5s ease-out;
